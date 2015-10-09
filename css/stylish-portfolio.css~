@@ -1,0 +1,284 @@
+/* Global Styles */
+
+body {
+  /*
+ */
+  min-height: 2000px;
+  padding-top: 40px;
+
+}
+
+#main{
+  width: 98%;
+
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+/*  padding: 0;
+  margin: 0;
+  */
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+.box {
+padding: 0px 10px 0 10px;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:black;
+}
+
+/* Intro */
+
+.intro {
+  display: table;
+  height: 400px;
+  color: #ffffff;
+  width: 100%;
+  padding: 40px 0;
+  position: relative;
+ /* background: url(../img/baby.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+*/
+background:#9b58a5;
+}
+
+.collage {
+  display: table;
+  height: 600px;
+  width: 100%;
+  position: relative;
+ /* background: url(../img/IMG_9721.JPG) no-repeat center center fixed; 
+  background: url(../img/Paper_Stripes.jpg) no-repeat center center fixed;
+ */
+}
+
+
+/* Services */
+
+.donde {
+  padding: 40px 0;
+  color: #ffffff; 
+  background:#E84c3d;
+  /*
+  background: url(../img/baby.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+*/
+}
+
+
+.luna {
+  color: #000000;
+  display: table;
+  height: 600px;
+  width: 100%;
+  padding: 40px 0;
+/*  background:#E5E4D2;
+ */
+  background: url(../img/viaje2.resized.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+.brake {
+  background:#2D4850;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.confirmanos{
+  /*background: url(../img/baby.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  */
+  background: #1BBC9B;
+  /*background: #2D4850;*/
+  
+  background-size: cover;
+  padding: 40px 0;
+  color: #ffffff;
+}
+
+.hospedaje{
+  color: #000000;
+  
+  padding: 40px 0;
+  background: #E5E4D2;
+
+  
+  /*background: url(../img/baby.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+*/
+
+}
+
+
+#myModal{
+  color: black;
+}
+
+/* Map */
+
+.map {
+  height: 500px;
+}
+
+/* Footer */
+
+footer {
+  /*padding: 100px 0;*/
+  color: #ffffff;
+  /*background:#2D4850;*/
+  background: #1BBC9B;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/baby.jpg) no-repeat center center scroll; 
+  }
+
+  .callout {
+	background: url(../img/callout.jpg) no-repeat center center scroll; 
+  }
+
+  .map {
+	height: 75%;
+  }
+
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  /*margin-bottom: 10px;*/
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  /*height: 600px;*/
+}
+
+
+/* navbar */
+.navbar-default {
+  width: 98%;
+  background-color: #2D4850; 
+  
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
